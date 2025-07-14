@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+/* Custom Font Faces */
+@font-face {
+  font-family: 'Sometype Mono';
+  src: url('/fonts/sometype-mono/SometypeMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/fonts/space-mono/SpaceMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/fonts/space-mono/SpaceMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-heading: 'Sometype Mono', monospace;
+  --font-body: 'Space Mono', monospace;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-heading);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography Classes */
+.h1 {
+  font-family: var(--font-heading);
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+
+@media (max-width: 999px) and (min-width: 810px) {
+  .h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 809px) {
+  .h1 {
+    font-size: 26px;
+  }
+}
+
+.h2 {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+
+.body-text {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
+  margin: 0;
+}
+
+.footer-tagline {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 400;
+  color: #BCBEC4;
+  margin: 0;
+}
+
+.header-title {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}
+
+/* Utility Classes */
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #EEEEEE;
+  border: none;
+}
+
+.link-blue {
+  color: #0066CC;
+  text-decoration: none;
+}
+
+.link-blue:hover {
+  text-decoration: underline;
+}
+
+.footer-logo-text {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
