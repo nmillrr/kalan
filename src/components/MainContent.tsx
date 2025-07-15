@@ -16,8 +16,7 @@ export default function MainContent() {
           />
           <h1 className="h1">Kalan</h1>
           <p className="body-text">
-            We incubate small businesses, low-budget founders, and nonprofit organizations. Check out our client work{' '}
-            <Link href="#" className="link-blue">↗</Link>
+            We incubate small businesses, low-budget founders, and nonprofit organizations. Check out our client work ⬇️
           </p>
         </div>
 
@@ -29,13 +28,13 @@ export default function MainContent() {
             <h2 className="h2">Case Studies</h2>
             <div className="flex flex-col gap-2.5">
               <Link href="/usf-study-abroad" className="body-text page-link">
-                🌍 USF Study Abroad
+                🌎 USF Study Abroad
               </Link>
               <Link href="/rabbi-lazowski" className="body-text page-link">
                 🔯 Rabbi Lazowski
               </Link>
               <Link href="/weha-washes" className="body-text page-link">
-                💚 WeHa Washes
+                🧼 WeHa Washes
               </Link>
             </div>
           </div>

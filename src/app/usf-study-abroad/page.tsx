@@ -12,7 +12,7 @@ export default function USFStudyAbroad() {
           
           {/* Header Section */}
           <div className="flex flex-col gap-5">
-            <h1 className="h1">🌍</h1>
+            <h1 className="h1">🌎</h1>
             <h1 className="h1">USF Study Abroad</h1>
           </div>
 
