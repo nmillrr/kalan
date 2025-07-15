@@ -28,13 +28,13 @@ export default function MainContent() {
           <div className="flex flex-col gap-2.5">
             <h2 className="h2">Case Studies</h2>
             <div className="flex flex-col gap-2.5">
-              <Link href="#" className="body-text link-blue">
+              <Link href="/usf-study-abroad" className="body-text page-link">
                 🌍 USF Study Abroad
               </Link>
-              <Link href="#" className="body-text link-blue">
+              <Link href="/rabbi-lazowski" className="body-text page-link">
                 🔯 Rabbi Lazowski
               </Link>
-              <Link href="#" className="body-text link-blue">
+              <Link href="/weha-washes" className="body-text page-link">
                 💚 WeHa Washes
               </Link>
             </div>
@@ -44,7 +44,7 @@ export default function MainContent() {
 
           <div className="flex flex-col gap-2.5">
             <h2 className="h2">About</h2>
-            <Link href="#" className="body-text link-blue">
+            <Link href="/our-mission" className="body-text page-link">
               ⭐ Our Mission
             </Link>
           </div>

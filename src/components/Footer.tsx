@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex items-center justify-between w-full max-w-[1200px] px-10 py-0 gap-5 h-full">
           <div className="flex flex-col items-start gap-0">
             <h2 className="footer-logo-text">Contact us</h2>
-            <Link href="mailto:hello@kalan.ventures" className="footer-logo-text link-blue">
+            <Link href="mailto:hello@kalan.ventures" className="footer-logo-text footer-email">
               hello@kalan.ventures
             </Link>
           </div>
@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-10 h-full justify-center">
           <div className="flex flex-col items-center gap-0">
             <h2 className="footer-logo-text">Contact us</h2>
-            <Link href="mailto:hello@kalan.ventures" className="footer-logo-text link-blue">
+            <Link href="mailto:hello@kalan.ventures" className="footer-logo-text footer-email">
               hello@kalan.ventures
             </Link>
           </div>
