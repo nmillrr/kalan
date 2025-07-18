@@ -76,6 +76,9 @@ export default function USFStudyAbroad() {
           First, we collected recipes (images + copy) in a specific format through a Google form. 
           The forms were fed into a Google sheet, which Zapier then sent to Framer’s CMS. 
           Recipe pages were automatically ready for the site moderators to review and edit inside of Framer before publishing.
+          <br></br>
+          <br></br>
+          You can view the completed project  <a href="#" className="link-blue">here</a>.
           </p>
 
         </div>

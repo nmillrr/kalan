@@ -76,6 +76,9 @@ export default function WeHaWashes() {
           <p className="body-text">
           When the customers were directed to Calendly from the website, our Zapier automation collected the Calendly form data and populated a Google sheet with relevant information: customer details, addresses, service types, and any specialized needs. 
           This information was translated into an internal dashboard that helped the managers better understand billing, customer preferences, and other metrics.
+          <br></br>
+          <br></br>
+          You can view the completed project  <a href="https://wehawashes.com" className="link-blue">here</a>.
           </p>
 
         </div>

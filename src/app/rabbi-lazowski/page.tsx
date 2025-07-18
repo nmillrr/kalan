@@ -29,28 +29,35 @@ export default function RabbiLazowski() {
 
           {/* First Body Text */}
           <p className="body-text">
-            This is an example page. Framer is an interactive design tool for 
-            websites and prototyping. It excels at building landing pages, 
-            marketing sites, online campaigns, and much more. It supports you 
-            in every part of the design process, from creating mockups to 
-            interactive prototypes, but its unique strength is the ability to 
-            publish directly from a freeform canvas. It's incredibly fast, 
-            expressive, and free to try.
+          Rabbi Philip Lazowski is a spiritual leader and Holocaust survivor based in Connecticut.
+          He has self-published several books, and was looking for a way to promote his latest, <u>Transforming Darkness into Light: A Holocaust Survivor’s Lessons on Fighting Hate</u>.
+          His team requested a website that would help them sell the book, as well as centralize all of his works, appearances, and stories.
           </p>
 
           {/* H2 Heading */}
-          <h2 className="h2">H2 Heading</h2>
+          <h2 className="h2">UX Design</h2>
+
+          {/* Second Image Block */}
+          <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
+            <Image
+              src="/images/rabbi-wires.png"
+              alt="Rabbi Lazowski components panel"
+              width={680}
+              height={400}
+              className="w-full h-full object-cover"
+            />
+          </div>
+
 
           {/* Second Body Text */}
           <p className="body-text">
-            This is a paragraph. That basil curry lime almonds green bowl 
-            That dragon pepper crispy cherries lentils red grapes grapefruit 
-            banana four-layer kung pao pepper cremini mushrooms Chinese five-spice 
-            powder chickpea crust pizza cherry bomb pepper tasty chia seeds.{' '}
-            <a href="#" className="link-blue">This is an inline link</a>.
+          We decided to approach this archival project like a museum: by using distinct pages to organize a large amount of information.
+          In order to make Rabbi’s library of material digestible and navigable, we spent a lot of time sitemapping intuitive layouts.
           </p>
+          {/* H3 Heading */}
+          <h2 className="h2">Research</h2>
 
-          {/* Second Image Block */}
+          {/* Third Image Block */}
           <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
             <Image
               src="/placeholder-framer2.png"
@@ -61,15 +68,14 @@ export default function RabbiLazowski() {
             />
           </div>
 
-          {/* H3 Heading */}
-          <h2 className="h2">H3 Heading</h2>
-
           {/* Final Body Text */}
           <p className="body-text">
-            This is a paragraph. That basil curry lime almonds green bowl 
-            That dragon pepper crispy cherries lentils red grapes grapefruit 
-            banana four-layer kung pao pepper cremini mushrooms Chinese five-spice 
-            powder chickpea crust pizza cherry bomb pepper tasty chia seeds.
+          We conducted thorough research to ensure that the site was as comprehensive as possible.
+          We sought out the remaining physical copies of his early works via BookFinder, 
+          digitized old photographs, and developed visual maps to contextualize his survivorship story.
+          <br></br>
+          <br></br>
+          You can view the completed project  <a href="#" className="link-blue">here</a>.
           </p>
 
         </div>
