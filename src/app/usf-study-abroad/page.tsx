@@ -20,7 +20,7 @@ export default function USFStudyAbroad() {
           <div className="w-full aspect-video bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-lg overflow-hidden">
             <Image
               src="/placeholder-framer.png"
-              alt="Framer design mockup"
+              alt="USF Study AbroadCookbook"
               width={680}
               height={400}
               className="w-full h-full object-cover"
@@ -29,47 +29,53 @@ export default function USFStudyAbroad() {
 
           {/* First Body Text */}
           <p className="body-text">
-            This is an example page. Framer is an interactive design tool for 
-            websites and prototyping. It excels at building landing pages, 
-            marketing sites, online campaigns, and much more. It supports you 
-            in every part of the design process, from creating mockups to 
-            interactive prototypes, but its unique strength is the ability to 
-            publish directly from a freeform canvas. It's incredibly fast, 
-            expressive, and free to try.
+          USF’s Study Abroad department wanted to make a cookbook. They needed a digital platform where students could share their own cultural stories and recipes together.
+          <br></br>
+          <br></br>
+          For this project, we needed a way for users to view, make, and sort through posts easily–much like a blog-forum hybrid.
+          Framer was the top choice for a straightforward CMS + robust design capabilities.
           </p>
 
           {/* H2 Heading */}
-          <h2 className="h2">H2 Heading</h2>
-
-          {/* Second Body Text */}
-          <p className="body-text">
-            This is a paragraph. That basil curry lime almonds green bowl 
-            That dragon pepper crispy cherries lentils red grapes grapefruit 
-            banana four-layer kung pao pepper cremini mushrooms Chinese five-spice 
-            powder chickpea crust pizza cherry bomb pepper tasty chia seeds.{' '}
-            <a href="#" className="link-blue">This is an inline link</a>.
-          </p>
+          <h2 className="h2">UX Design</h2>
 
           {/* Second Image Block */}
           <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
             <Image
               src="/placeholder-framer2.png"
-              alt="Framer components panel"
+              alt="Recipe card design"
               width={680}
               height={400}
               className="w-full h-full object-cover"
             />
           </div>
 
+          {/* Second Body Text */}
+          <p className="body-text">
+          Cookbooks heavily rely on images in order to encourage viewers to follow a recipe.
+          For the homepage, we decided to use cards with visuals to prioritize the images–they would help drive users towards the recipes they found most yummy-looking.
+          </p>
+
           {/* H3 Heading */}
-          <h2 className="h2">H3 Heading</h2>
+          <h2 className="h2">Tech Stack</h2>
+
+          {/* Third Image Block */}
+          <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
+            <Image
+              src="/images/usf-flow.png"
+              alt="Tech stack"
+              width={680}
+              height={400}
+              className="w-full h-full object-cover"
+            />
+          </div>
 
           {/* Final Body Text */}
           <p className="body-text">
-            This is a paragraph. That basil curry lime almonds green bowl 
-            That dragon pepper crispy cherries lentils red grapes grapefruit 
-            banana four-layer kung pao pepper cremini mushrooms Chinese five-spice 
-            powder chickpea crust pizza cherry bomb pepper tasty chia seeds.
+          Recipes could be easily uploaded to the website via a simple automation. 
+          First, we collected recipes (images + copy) in a specific format through a Google form. 
+          The forms were fed into a Google sheet, which Zapier then sent to Framer’s CMS. 
+          Recipe pages were automatically ready for the site moderators to review and edit inside of Framer before publishing.
           </p>
 
         </div>
