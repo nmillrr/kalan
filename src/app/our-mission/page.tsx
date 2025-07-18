@@ -19,8 +19,8 @@ export default function OurMission() {
           {/* First Image Block */}
           <div className="w-full aspect-video bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-lg overflow-hidden">
             <Image
-              src="/placeholder-framer.png"
-              alt="Our Mission project mockup"
+              src="/images/kalan-big.png"
+              alt="Kalan logo"
               width={680}
               height={400}
               className="w-full h-full object-cover"
@@ -29,48 +29,59 @@ export default function OurMission() {
 
           {/* First Body Text */}
           <p className="body-text">
-            This is an example page. Framer is an interactive design tool for 
-            websites and prototyping. It excels at building landing pages, 
-            marketing sites, online campaigns, and much more. It supports you 
-            in every part of the design process, from creating mockups to 
-            interactive prototypes, but its unique strength is the ability to 
-            publish directly from a freeform canvas. It's incredibly fast, 
-            expressive, and free to try.
+          Thanks for checking out Kalan! We help small businesses, nonprofits, and low-budget founders bootstrap, launch, and grow.
+          Our business consulting and solutions cover everything from building web platforms to growth campaigns, from branding to automations, and much more.
+          Kalan is made up of ex-agency partners that bring enterprise-level expertise to scrappy projects.
           </p>
 
           {/* H2 Heading */}
-          <h2 className="h2">H2 Heading</h2>
-
-          {/* Second Body Text */}
-          <p className="body-text">
-            This is a paragraph. That basil curry lime almonds green bowl 
-            That dragon pepper crispy cherries lentils red grapes grapefruit 
-            banana four-layer kung pao pepper cremini mushrooms Chinese five-spice 
-            powder chickpea crust pizza cherry bomb pepper tasty chia seeds.{' '}
-            <a href="#" className="link-blue">This is an inline link</a>.
-          </p>
+          <h2 className="h2">Our Process</h2>
 
           {/* Second Image Block */}
           <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
             <Image
-              src="/placeholder-framer2.png"
-              alt="Our Mission components panel"
+              src="/images/kalan-process.png"
+              alt="Kalan process"
               width={680}
               height={400}
               className="w-full h-full object-cover"
             />
           </div>
 
+          {/* Second Body Text */}
+          <p className="body-text">
+          All the right tools already exist on the internet to help you build and scale.
+          We work with you to translate and incubate your work into something scalable and sustainable.
+          Send us an email, and we will schedule a consultation call to learn more about what we can achieve together.
+          </p>
+
           {/* H3 Heading */}
-          <h2 className="h2">H3 Heading</h2>
+          <h2 className="h2">Our Ethos</h2>
+
+          {/* Third Image Block */}
+          <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
+            <Image
+              src="/images/kalan-loves.png"
+              alt="Kalan loves"
+              width={680}
+              height={400}
+              className="w-full h-full object-cover"
+            />
+          </div>
 
           {/* Final Body Text */}
           <p className="body-text">
-            This is a paragraph. That basil curry lime almonds green bowl 
-            That dragon pepper crispy cherries lentils red grapes grapefruit 
-            banana four-layer kung pao pepper cremini mushrooms Chinese five-spice 
-            powder chickpea crust pizza cherry bomb pepper tasty chia seeds.
-          </p>
+          Accessibility is everything to us.
+          If you’re an impact-driven nonprofit, we’re happy to work at a discounted rate in order to help you deliver to your customers.
+          We specialize in building on low-cost budgets, bootstrapping, and getting creative with our solutions to save you money.
+          Most of the tools our customers use have a robust free tier, and they’re able to subscribe as they scale and their needs evolve.
+            <br></br>
+            <br></br>
+            Come say hi!
+            <br></br>
+            <br></br>
+            <a href="mailto:hello@kalan.ventures" className="link-blue">hello@kalan.ventures</a>
+            </p>
 
         </div>
       </main>

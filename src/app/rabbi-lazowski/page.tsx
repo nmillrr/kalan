@@ -20,7 +20,7 @@ export default function RabbiLazowski() {
           <div className="w-full aspect-video bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-lg overflow-hidden">
             <Image
               src="/placeholder-framer.png"
-              alt="Rabbi Lazowski project mockup"
+              alt="Rabbi Lazowski project"
               width={680}
               height={400}
               className="w-full h-full object-cover"
@@ -41,7 +41,7 @@ export default function RabbiLazowski() {
           <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
             <Image
               src="/images/rabbi-wires.png"
-              alt="Rabbi Lazowski components panel"
+              alt="Rabbi Lazowski wireframes"
               width={680}
               height={400}
               className="w-full h-full object-cover"
@@ -60,8 +60,8 @@ export default function RabbiLazowski() {
           {/* Third Image Block */}
           <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
             <Image
-              src="/placeholder-framer2.png"
-              alt="Rabbi Lazowski components panel"
+              src="/images/rabbi-research.png"
+              alt="Rabbi Lazowski research"
               width={680}
               height={400}
               className="w-full h-full object-cover"
