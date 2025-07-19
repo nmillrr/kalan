@@ -30,7 +30,7 @@ export default function OurMission() {
           {/* First Body Text */}
           <p className="body-text">
           Thanks for checking out Kalan! We help small businesses, nonprofits, and low-budget founders bootstrap, launch, and grow.
-          Our business consulting and solutions cover everything from building web platforms to growth campaigns, from branding to automations, and much more.
+          Our incubation covers everything from building web platforms to growth campaigns, branding to automations, and much more.
           Kalan is made up of ex-agency partners that bring enterprise-level expertise to scrappy projects.
           </p>
 

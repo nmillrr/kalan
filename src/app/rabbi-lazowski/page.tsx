@@ -19,7 +19,7 @@ export default function RabbiLazowski() {
           {/* First Image Block */}
           <div className="w-full aspect-video bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-lg overflow-hidden">
             <Image
-              src="/placeholder-framer.png"
+              src="/images/rabbi-hero.png"
               alt="Rabbi Lazowski project"
               width={680}
               height={400}
@@ -73,10 +73,13 @@ export default function RabbiLazowski() {
           We conducted thorough research to ensure that the site was as comprehensive as possible.
           We sought out the remaining physical copies of his early works via BookFinder, 
           digitized old photographs, and developed visual maps to contextualize his survivorship story.
+          </p>
+          {/*
           <br></br>
           <br></br>
           You can view the completed project  <a href="#" className="link-blue">here</a>.
           </p>
+          */}
 
         </div>
       </main>

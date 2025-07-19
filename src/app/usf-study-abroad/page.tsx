@@ -19,7 +19,7 @@ export default function USFStudyAbroad() {
           {/* First Image Block */}
           <div className="w-full aspect-video bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-lg overflow-hidden">
             <Image
-              src="/placeholder-framer.png"
+              src="/images/usf-hero.png"
               alt="USF Study AbroadCookbook"
               width={680}
               height={400}
@@ -42,7 +42,7 @@ export default function USFStudyAbroad() {
           {/* Second Image Block */}
           <div className="w-full aspect-video bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg overflow-hidden">
             <Image
-              src="/placeholder-framer2.png"
+              src="/images/usf-cards.png"
               alt="Recipe card design"
               width={680}
               height={400}
@@ -76,10 +76,13 @@ export default function USFStudyAbroad() {
           First, we collected recipes (images + copy) in a specific format through a Google form. 
           The forms were fed into a Google sheet, which Zapier then sent to Framer’s CMS. 
           Recipe pages were automatically ready for the site moderators to review and edit inside of Framer before publishing.
+          </p>
+          {/*}
           <br></br>
           <br></br>
           You can view the completed project  <a href="#" className="link-blue">here</a>.
           </p>
+          */}
 
         </div>
       </main>
