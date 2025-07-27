@@ -16,7 +16,18 @@ export const metadata: Metadata = {
   title: "Kalan",
   description: "We incubate small businesses, low-budget founders, and nonprofit organizations.",
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+      },
+      {
+        url: '/transparent-logo.png',
+        type: 'image/png',
+        sizes: '32x32',
+      },
+    ],
+    apple: '/transparent-logo.png',
   },
 };
 
